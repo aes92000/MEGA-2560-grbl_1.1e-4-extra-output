@@ -1,9 +1,9 @@
 # MEGA-2560-grbl_1.1e-4-extra-output
 modified version to add 4 additional output pins for control through relay
 
-I am, in no way, a professional programmer.
+I am, in no way, a professional programmer. Use at your own risk. 
 I used existing grbl files and modified to add additional outputs.
-I have tested with bCNC and SnapCNC programs. they worked for me very well.
+I have tested with bCNC and SnapCNC programs. They worked for me very well.
 
 The outputs are assigned through cpu_map.h
 Each output has it's own toggle control through 'M' codes
